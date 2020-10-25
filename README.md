@@ -50,7 +50,7 @@ Now deploy the subscription
 python main.py manage deploy
 ```
 
-And finally publish messages subscriptions of the topic
+And finally publish messages to subscriptions of the topic
 ```
 python main.py publish this is my message here!
 ```
