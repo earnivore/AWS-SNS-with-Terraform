@@ -5,6 +5,21 @@ A fun tutorial to introduce the Terraform tool using Amazon Web Service's Simple
 - HashiCorp Terraform (https://www.terraform.io/downloads.html)
 
 ## Usage
+```
+usage: A tool to learn Terraform and AWS SNS [-h] action ...
+
+optional arguments:
+  -h, --help  show this help message and exit
+
+main actions:
+  valid actions to execute
+
+  action
+    list      list topics or subscriptions to a topic
+    create    create topics or subscriptions to a topic
+    publish   publish a message to a topic
+    manage    manage the deployment or destruction of resources
+```
 
 AWS SNS consists of topics and subscriptions. Any endpoint subscribed to a topic will receive messages published to that topic.
 
